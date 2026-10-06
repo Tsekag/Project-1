@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Meet</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <button type="button" class="logo logo-btn" aria-label="Google Meet home">
+          <img src="download.png" alt="Google Meet" />
+        </button>
+
+        <div class="top-bar">
+          <time class="time" datetime="">5:36 AM • Fri, Feb 23</time>
+
+          <div class="icons-group">
+            <button
+              type="button"
+              class="nav-trigger"
+              data-nav="support"
+              title="Support"
+              aria-label="Support"
+              aria-haspopup="menu"
+              aria-expanded="false"
+            >
+              <img
+                src="https://www.gstatic.com/images/icons/material/system/1x/help_outline_grey600_24dp.png"
+                alt=""
+              />
+            </button>
+            <button
+              type="button"
+              class="nav-trigger"
+              data-nav="feedback"
+              title="Report a Problem"
+              aria-label="Report a problem"
+            >
+              <img
+                src="https://www.gstatic.com/images/icons/material/system/1x/feedback_grey600_24dp.png"
+                alt=""
+              />
+            </button>
+            <button
+              type="button"
+              class="nav-trigger"
+              data-nav="settings"
+              title="Settings"
+              aria-label="Settings"
+            >
+              <img
+                src="https://www.gstatic.com/images/icons/material/system/1x/settings_grey600_24dp.png"
+                alt=""
+              />
+            </button>
+          </div>
+
+          <div class="icons-right">
+            <button
+              type="button"
+              class="nav-trigger"
+              data-nav="apps"
+              title="Google Apps"
+              aria-label="Google apps"
+              aria-haspopup="menu"
+              aria-expanded="false"
+            >
+              <img
+                src="https://www.gstatic.com/images/icons/material/system/1x/apps_grey600_24dp.png"
+                alt=""
+              />
+            </button>
+            <button
+              type="button"
+              class="nav-trigger profile-btn"
+              data-nav="account"
+              title="Google Account"
+              aria-label="Google account"
+              aria-haspopup="menu"
+              aria-expanded="false"
+            >
+              E
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <h1>Secure video conferencing for everyone</h1>
+        <p>
+          Connect, collaborate, and celebrate from anywhere with Google Meet
+        </p>
+
+        <div class="action-container">
+          <button class="new-meeting">
+            <img src="icons8-zoom-48.png" alt="new-meeting" />
+            New meeting
+          </button>
+          <div class="join-container">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="meeting-code"
+                name="meeting-code"
+                placeholder="Enter a code or link"
+                autocomplete="off"
+                aria-label="Meeting code or link"
+              />
+              <button class="keyboard-icon" title="Open keyboard">
+                <img
+                  src="https://www.gstatic.com/images/icons/material/system/1x/keyboard_grey600_24dp.png"
+                  alt="Keyboard"
+                />
+              </button>
+            </div>
+            <button class="join-btn">Join</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="illustration">
+        <div class="carousel-container">
+          <button class="nav-btn prev">‹</button>
+          <img
+            src="https://www.gstatic.com/meet/user_edu_get_a_link_light_90698cd7b4ca04d3005c962a3756c42d.svg"
+            alt="Illustration"
+          />
+          <button class="nav-btn next">›</button>
+        </div>
+        <div class="carousel-text">
+          <h2>Get a link you can share</h2>
+          <p>
+            Click <strong>New meeting</strong> to get a link you can send to
+            people you want to meet with
+          </p>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="learn-more-wrapper">
+        <div class="learn-more-container">
+          <a href="#" class="learn-more">Learn more</a> about Google Meet
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
